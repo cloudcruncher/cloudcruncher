@@ -1,138 +1,82 @@
-# Robin Saini
-Edinburgh, Scotland, United Kingdom  
-[robinsaini156@gmail.com](mailto:robinsaini156@gmail.com) | 07466201865  
-[LinkedIn](https://www.linkedin.com/in/robinsaini)
+# Hi, I'm Robin 👋
+
+**Lead / Senior Data Engineer · AI data engineering · London, UK**
+
+I build data platforms for regulated financial services, and lately the data side of agentic AI:
+getting AI agents safely to the enterprise data they need. 15+ years in software and data
+engineering, 10+ of them in data engineering, most recently at **NatWest Group**.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-robinsaini-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/robinsaini)
+[![Email](https://img.shields.io/badge/Email-robinsaini156%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:robinsaini156@gmail.com)
 
 ---
 
-## Summary
+## 🔭 What I'm working on
 
-Accomplished and forward-thinking **Senior Data Engineer** with extensive experience in financial services and enterprise data systems. Proven expertise in designing scalable data architectures, optimizing ETL pipelines, and driving cloud transformations. Adept at aligning data strategies with business goals, mentoring teams, and delivering high-value insights for executive decision-making. Aspiring to leverage technical and leadership skills to transition into **Lead Data Engineer** or **Data Architect** roles within innovative organizations.
+- **Agentic AI at NatWest Innovation.** I lead the data engineering area for the team's agentic
+  AI projects, connecting agents to API and non-API enterprise systems through MCP servers and
+  direct tool calls, from proof of concept to delivery.
+- **[Open Lakehouse](https://github.com/cloudcruncher/open-lakehouse)**, my own build of a
+  governed lakehouse for a bank, built around an AI assistant on live customer calls.
+  **[Interactive tour →](https://cloudcruncher.github.io/open-lakehouse/)**
+  - CDC streaming (Debezium → Kafka → Spark → Iceberg): a source commit is visible to a colleague in about 10 s
+  - One policy for people and agents: Trino + OPA row filters and column masks, and agents act *on behalf of* the colleague
+  - Every AI answer shows how the platform produced it: the Iceberg snapshot it was pinned to, the OPA decision, and the audit row
+  - 53 end-to-end checks and a chaos suite (11 components killed and recovered) run on every push in GitHub Actions
 
----
+## 📈 Selected impact
 
-## Core Competencies
+| | |
+|---|---|
+| **Agentic AI** | Complaints investigation cut from 45–60 min to 2–3 min per case (>95%); due-diligence checks supported on 300+ onboarding applications a day |
+| **ESG platform** | Led the team that built NatWest's ESG and climate platform on Snowflake: 125+ sources, 1 TB+ a month, feeding climate regulatory reporting |
+| **Performance** | 40% faster batch processing (PySpark, dbt) and 30% fewer data-quality incidents through automated monitoring |
+| **Enterprise DWH** | 50% lower ETL load times and 45% fewer data errors on the Lloyds Banking Group warehouse; led a 5-person Data Services team |
 
-- **Data Architecture & Leadership:** End-to-end design of robust data ecosystems, stakeholder management, team mentoring.
-- **Cloud Data Solutions:** Snowflake, AWS (S3, EC2, Glue, Data Lake), DBT, Airflow.
-- **Big Data Expertise:** Real-time and batch pipeline optimization, PySpark, StreamSets.
-- **Data Strategy & Governance:** Data modeling, data quality frameworks, regulatory compliance.
-- **Technical Proficiency:** Python, SQL, ETL/ELT process optimization, CI/CD pipelines with GitLab.
-- **Soft Skills:** Collaborative problem-solving, strategic communication, Agile methodologies.
+## 🧰 Stack
 
----
+**Every day:** Python · SQL · Snowflake · Apache Spark / PySpark · Airflow · dbt · PostgreSQL · AWS
 
-## Professional Experience
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
 
-### Senior Data Engineer
-**NatWest Group** | Sep 2021 – Present  
-Edinburgh, Scotland  
+**Lakehouse, streaming and governance:** Apache Iceberg · Trino · Kafka · Debezium · OPA · Keycloak · Dagster · OpenLineage
 
-- Designed and orchestrated data ingestion pipelines for **30+ third-party sources**, processing over **20 TB of data monthly** using **Snowflake**, **DBT**, **Airflow**, and **Python**.
-- Developed reusable data transformation frameworks aligned with best practices, reducing operational inefficiencies by 35%.
-- Collaborated with product and technology teams to ensure regulatory-compliant data delivery for critical financial analytics.
-- Established CI/CD pipelines via **GitLab**, streamlining deployments and enhancing platform reliability.
-- Mentored junior engineers and fostered technical upskilling initiatives across the department.
-- Drove cross-functional alignment on data engineering roadmaps, directly contributing to enterprise-wide analytics capabilities.
+![Apache Iceberg](https://img.shields.io/badge/Apache_Iceberg-2B6CB0?style=flat&logo=apache&logoColor=white)
+![Trino](https://img.shields.io/badge/Trino-DD00A1?style=flat&logo=trino&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
+![Open Policy Agent](https://img.shields.io/badge/OPA-7D9AAA?style=flat&logo=openpolicyagent&logoColor=white)
+![Dagster](https://img.shields.io/badge/Dagster-4F43DD?style=flat&logo=dagster&logoColor=white)
 
-**Leadership Highlights:**
-- Delivered thought leadership for **Climate Risk Analytics**, enabling data-driven decision-making.
-- Advocated best practices across the organization’s Data Engineering Community.
+**AI data engineering:** MCP servers and tool calling · retrieval and context pipelines · Pydantic data contracts · LLM evaluation · AI observability
 
----
+**Delivery:** Docker · GitLab CI/CD · GitHub Actions · Terraform · Splunk
 
-### Senior Data Engineer
-**Tata Consultancy Services (TCS)** | Feb 2016 – Sep 2021  
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat&logo=gitlab&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat&logo=terraform&logoColor=white)
 
-- Led a team managing enterprise-scale **data warehouse** platforms, providing critical support for financial reporting and analytics.
-- Transitioned legacy systems to **cloud-based data ecosystems**, enhancing scalability and reducing operational costs by 30%.
-- Improved performance of SQL queries and ETL workflows, achieving a **25% reduction in processing time**.
-- Conducted data lineage and governance assessments, ensuring adherence to financial compliance standards.
-- Partnered with clients to define data architecture strategies, resulting in seamless adoption of modernized platforms.
+## 🏦 Where I've worked
 
-**Key Projects:**
-- Cloud migration of mission-critical applications.
-- Implementation of disaster recovery frameworks.
+| When | Where | What |
+|---|---|---|
+| 2025 – now | **NatWest Group**, Innovation | Senior Data Engineer, agentic systems and LLM deployment. Lead the data engineering area for agentic AI projects |
+| 2023 – 2025 | **NatWest Group**, Climate Analytics | Led the team delivering the ESG data platform on Snowflake |
+| 2021 – 2023 | **NatWest Group**, Retail Analytics | Batch pipelines and Snowflake data models for retail decisioning |
+| 2016 – 2021 | **TCS** for Lloyds Banking Group | Led the Data Services team for the enterprise warehouse (Teradata) and ODS (DB2); built an ML-ready data lake on AWS |
+| 2011 – 2016 | **UST Global**, **Sopra Steria** | Mainframe engineering (COBOL, DB2), including for a UK retailer |
 
----
+**Domains:** retail and commercial banking · financial crime and customer due diligence · complaints · ESG and climate risk · regulatory reporting
 
-### Senior Software Engineer
-**UST** | Apr 2015 – Feb 2016  
-
-- Developed COBOL-based applications to support financial services’ legacy systems.
-- Drafted high-level technical designs and integrated enhancements aligned with business needs.
-- Resolved critical incidents and drove compliance adherence through ITIL methodologies.
-
----
-
-### Software Engineer
-**Sopra Steria** | Apr 2011 – Mar 2015  
-
-- Designed and maintained COBOL applications for a leading UK retailer’s supply chain.
-- Automated manual workflows, resulting in a **20% increase in operational efficiency**.
-- Authored detailed technical documentation and provided training to junior developers.
-
----
-
-## Education
-
-**Dr. A.P.J. Abdul Kalam Technical University**  
-**B.Tech in Computer Science** | 2006 – 2010  
+**Certifications:** Big Data on AWS (AWS) · Data Engineering Nanodegree (Udacity) · Google Cloud Engineering (Coursera) · B.Tech Computer Science
 
 ---
 
-## Certifications
-
-- **Data Engineering Nanodegree** – Udacity  
-- **AWS Certified Solutions Architect** *(in progress)*  
-
----
-
-## Additional Expertise
-
-- Mastery in **Data Lake Architecture** and cloud integrations.
-- Proficient in **real-time streaming technologies** and pipeline scalability.
-- Effective communicator, bridging technical teams and senior leadership.
-
----
-
-## Key Achievements
-
-- Spearheaded cloud migration projects, reducing infrastructure costs by 30%.
-- Enhanced ETL/ELT workflows, accelerating data delivery cycles by 40%.
-- Recognized for driving compliance across regulatory-bound financial systems.
-
----
-
-## Technical Proficiency
-
-- **Programming Languages:** Python, SQL, COBOL.  
-- **Data Platforms:** Snowflake, AWS Glue, Hadoop, Hive, StreamSets, Teradata.  
-- **Frameworks & Tools:** PySpark, Apache Spark, DBT, Airflow, ITIL Processes.  
-- **Cloud Technologies:** AWS (S3, EC2, Data Lake).
-
----
-
-**Robin Saini**  
-[LinkedIn](https://www.linkedin.com/in/robinsaini) | [robinsaini156@gmail.com](mailto:robinsaini156@gmail.com) | 07466201865
-
-
-
-## Cloud Providers
-![AWS](https://img.shields.io/badge/AWS-%23FFBB00.svg?style=for-the-badge&logo=amazon-aws&logoColor=black)
-
-
-## DevOps
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
-
-
-## Data Engineering
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
-![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Apache_Spark-FFFFFF?style=for-the-badge&logo=apachespark&logoColor=#E35A16)
-![Apache Airflow](https://img.shields.io/badge/Airflow-FFFFFF?style=for-the-badge&logo=apacheairflow&logoColor=red)
-
+<sub>The quickest way to reach me is LinkedIn.</sub>
