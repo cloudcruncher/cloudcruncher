@@ -70,7 +70,7 @@ engineering, 10+ of them in data engineering, most recently at **NatWest Group**
 | 2025 – now | **NatWest Group**, Innovation | Senior Data Engineer, agentic systems and LLM deployment. Lead the data engineering area for agentic AI projects |
 | 2023 – 2025 | **NatWest Group**, Climate Analytics | Led the team delivering the ESG data platform on Snowflake |
 | 2021 – 2023 | **NatWest Group**, Retail Analytics | Batch pipelines and Snowflake data models for retail decisioning |
-| 2016 – 2021 | **TCS** for Lloyds Banking Group | Led the Data Services team for the enterprise warehouse (Teradata) and ODS (DB2); built an ML-ready data lake on AWS |
+| 2016 – 2021 | **TCS** for Lloyds Banking Group | Led the Data Services team for the enterprise warehouse (Teradata) and ODS (DB2); built an ML-ready data lake on GCP |
 | 2011 – 2016 | **UST Global**, **Sopra Steria** | Mainframe engineering (COBOL, DB2), including for a UK retailer |
 
 **Domains:** retail and commercial banking · financial crime and customer due diligence · complaints · ESG and climate risk · regulatory reporting
